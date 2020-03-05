@@ -26,6 +26,8 @@ _A list of my commonly used Git commands_
 | `git status` | Check status |
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
+| `git add .` | Add all new and changed files under the current directory to the staging area |
+| `git add --all :/` | Add all new and changed files under the entire tree to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
@@ -38,6 +40,7 @@ _A list of my commonly used Git commands_
 | `git branch [branch name]` | Create a new branch |
 | `git branch -d [branch name]` | Delete a branch |
 | `git push origin --delete [branch name]` | Delete a remote branch |
+| `git remote update origin --prune` | Refresh the list of remote branches |
 | `git checkout -b [branch name]` | Create a new branch and switch to it |
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
 | `git branch -m [old branch name] [new branch name]` | Rename a local branch |
