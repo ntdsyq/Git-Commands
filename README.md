@@ -30,6 +30,7 @@ _A list of my commonly used Git commands_
 | `git add --all :/` | Add all new and changed files under the entire tree to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
+| `git reset -- <filePath>` | unstage a file |
 
 ### Branching & Merging
 
